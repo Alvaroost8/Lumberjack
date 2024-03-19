@@ -1,4 +1,10 @@
 # Lumberjack
+Team Members:
+- Marino Oliveros Blanco
+- Luis Domene García
+- Alejandra Reinares Guerreros
+- Álvaro Sáenz-Torre de Torre
+- Joan Bayona Corbalán
 
 ## Synthesis Project - Group 8
 
