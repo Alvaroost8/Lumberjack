@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 19 11:35:50 2024
-
-@author: alvar
-"""
-
 import json
 import requests
 
@@ -24,4 +17,3 @@ def geolocalizate_ip(ip):
 
 ip="158.156.23.5"
 print(geolocalizate_ip(ip))
-
