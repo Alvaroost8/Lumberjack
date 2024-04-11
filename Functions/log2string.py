@@ -2,7 +2,7 @@ def read_log_file(log_file_path):
     log_list = []
     with open(log_file_path, 'r') as file:
         for line in file:
-            if line.startswith('www.sitges') or line.startswith('sitges') or line.startswwith('www.bestsitges'):
+            if line.startswith('www.sitges') or line.startswith('sitges') or line.startswith('www.bestsitges'):
                 log_list.append(line.strip())
     return log_list
 
