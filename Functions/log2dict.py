@@ -1,5 +1,4 @@
 def log_to_dict(logs, ip_list):
-    i=1
     logs_ip_dict={}
     time_zones={}
     countries={}
@@ -12,8 +11,6 @@ def log_to_dict(logs, ip_list):
             time_zones[ip]=time_zone
             countries[ip]=country
             coordinates[ip]=coords
-            print(i)
-            i+=1
         else:
             log_time=calculate_local_time(time, time_zones[ip])
         log_dict={"country":countries[ip], "coords":coordinates[ip], "log_time":log_time, "instruction":instruction, "url":url, "response":response, "response_weight":response_weight, "browser":browser}
